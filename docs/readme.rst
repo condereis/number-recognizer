@@ -29,6 +29,10 @@ Requirements
 Recognition Process
 -------------------
 
+.. image:: img/docs.png
+   :scale: 50 %
+   :align: center
+
 * Get a grayscale version of the frame;
 * Select a ROI;
 * Apply a Gaussian Adaptive Threshold;

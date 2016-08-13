@@ -118,7 +118,7 @@ def main(args=None):
         frame = cv2.rectangle(frame,(0,0),(frame.shape[1],40),(0,0,0),-1)
         cv2.putText(frame,'Number: '+str(number),(10,30), 2, 0.7,(255,255,255),1,cv2.LINE_AA)
         cv2.rectangle(frame, (200, 200), (440, 280), (0, 200, 0), 2)
-        cv2.imshow('frame', frame)
+        cv2.imshow('Number Recognizer', frame)
 
         # Print number by pressing 'p'
         k = cv2.waitKey(5)
