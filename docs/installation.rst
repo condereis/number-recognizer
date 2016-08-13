@@ -8,7 +8,7 @@ Installation
 Stable release
 --------------
 
-To install Number Recognizer, run this command in your terminal:
+To install Number Recognizer, first install OpenCV_ and TensorFlow_ then run this command in your terminal:
 
 .. code-block:: console
 
@@ -27,6 +27,8 @@ From sources
 ------------
 
 The sources for Number Recognizer can be downloaded from the `Github repo`_.
+
+First install OpenCV_ and TensorFlow_.
 
 You can either clone the public repository:
 
@@ -49,3 +51,5 @@ Once you have a copy of the source, you can install it with:
 
 .. _Github repo: https://github.com/condereis/number-recognizer
 .. _tarball: https://github.com/condereis/number-recognizer/tarball/master
+.. _OpenCV: https://github.com/milq/scripts-ubuntu-debian/blob/master/install-opencv.sh
+.. _TensorFlow: https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html#pip-installation
