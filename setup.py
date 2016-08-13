@@ -19,7 +19,7 @@ requirements = [
 
 setup(
     name='number-recognizer',
-    version='0.1.1',
+    version='0.1.2',
     description="A software for the recognition of handwritten numbers.",
     long_description=readme + '\n\n' + history,
     author="Rafael Lopes Conde dos Reis",
