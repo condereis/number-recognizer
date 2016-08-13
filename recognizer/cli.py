@@ -5,7 +5,7 @@ from collections import deque
 import numpy as np
 import pandas as pd
 import cv2
-from digit_recognizer import read_number
+from recognizer import read_number
 import tensorflow as tf
 import os
 
@@ -116,7 +116,7 @@ def main(args=None):
 
         # Display frames
         frame = cv2.rectangle(frame,(0,0),(frame.shape[1],40),(0,0,0),-1)
-        cv2.putText(frame,'Number: '+str(number),(10,30), 1, 1.5,(255,255,255),1,cv2.LINE_AA)
+        cv2.putText(frame,'Number: '+str(number),(10,30), 2, 0.7,(255,255,255),1,cv2.LINE_AA)
         cv2.rectangle(frame, (200, 200), (440, 280), (0, 200, 0), 2)
         cv2.imshow('frame', frame)
 
