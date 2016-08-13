@@ -15,13 +15,14 @@ History
 * Font changes.
 
 
-0.1.2, 0.1.3 (2016-08-12)
+0.1.2 and 0.1.3 (2016-08-12)
 -------------------------
 
 * Model location fix.
 
 
-0.1.4 (2016-08-13)
+0.1.4 and 0.1.5 (2016-08-13)
 ------------------
 
 * MANIFEST fix
+* Absolut path to model
