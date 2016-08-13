@@ -13,3 +13,9 @@ History
 
 * Import fix.
 * Font changes.
+
+
+0.1.2 (2016-08-12)
+------------------
+
+* Model location fix.
