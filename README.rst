@@ -38,9 +38,9 @@ Requirements
 Installation
 ------------
 
-Install OpenCV_ and TensorFlow_ then and run:
+Install OpenCV_ and TensorFlow_ then and run::
 
-	>>> $ pip install number-recognizer
+	$ pip install number-recognizer
 
 .. _OpenCV: https://github.com/milq/scripts-ubuntu-debian/blob/master/install-opencv.sh
 .. _TensorFlow: https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html#pip-installation
@@ -49,9 +49,9 @@ Install OpenCV_ and TensorFlow_ then and run:
 Usage
 -----
 
-Run:
+Run::
 
-	>>> $ recognizer
+	$ recognizer
 
 Write a number on a clean peace of paper. Position it inside the green box in a way that the number is focused. Press **r** to recognize the number. Press **q** to quit the program.
 
