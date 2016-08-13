@@ -15,7 +15,7 @@ History
 * Font changes.
 
 
-0.1.2 (2016-08-12)
+0.1.2 and 0.1.3 (2016-08-12)
 ------------------
 
 * Model location fix.

@@ -66,7 +66,8 @@ def read_number(inputs_list):
     saver = tf.train.Saver()
     with tf.Session() as sess:
         # Restore variables from disk.
-        saver.restore(sess, "conv_nn.ckpt")
+        model_path = os.path.join(os.path.dirname('__file__'),'recognizer',"conv_nn.ckpt")
+        saver.restore(sess, model_path)
         predict = sess.run(
             y_conv, feed_dict={x: inputs_list / 255.0, keep_prob: 1.0}
         )
