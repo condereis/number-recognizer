@@ -2,4 +2,4 @@
 
 __author__ = 'Rafael Lopes Conde dos Reis'
 __email__ = 'rafael.lcreis@gmail.com'
-__version__ = '0.1.3'
+__version__ = '0.1.4'
