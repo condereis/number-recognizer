@@ -42,7 +42,7 @@ Recognition Process
 * Find ROI Contours;
 * Generate a square image that is white inside the contour and black outside, for each contour found.
 * Resize image using linear interpolation to a 28x28 image, for each contour found;
-* Run an Deep Convolutional Neural Network trained for MNIST dataset on each image. For more information on the model check `here <https://github.com/condereis/kaggle-mnist>`_.
+* Run an Deep Convolutional Neural Network trained for MNIST dataset on each image. For more information on the model check `here <https://github.com/condereis/kaggle-mnist/blob/master/notebooks/1-rcr-model-engineering.ipynb>`_.
 * Concatenate de digits and print the number.
 
 
