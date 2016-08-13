@@ -25,10 +25,39 @@ A software for the recognition of handwritten numbers.
 * Documentation: https://recognizer.readthedocs.io.
 
 
-Features
---------
+Requirements
+------------
 
-* TODO
+* OpenCV
+* TensorFlow
+* Numpy
+* Pandas
+* Click
+
+
+Installation
+------------
+
+Install OpenCV_ and TensorFlow_ then and run:
+
+	>>> $ pip install number-recognizer
+
+.. _OpenCV: https://github.com/milq/scripts-ubuntu-debian/blob/master/install-opencv.sh
+.. _TensorFlow: https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html#pip-installation
+
+
+Usage
+-----
+
+Run:
+
+	>>> $ recognizer
+
+Write a number on a clean peace of paper. Position it inside the green box in a way that the number is focused. Press **r** to recognize the number. Press **q** to quit the program.
+
+
+For more information on the model used to classify the digits check `here <https://github.com/condereis/kaggle-mnist>`_.
+
 
 Credits
 ---------
@@ -36,6 +65,7 @@ Tools used in rendering this package:
 
 * Cookiecutter_
 * `cookiecutter-pypackage`_
+
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`cookiecutter-pypackage`: https://github.com/condereis/cookiecutter-pypackage

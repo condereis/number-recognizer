@@ -11,12 +11,11 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     'Click>=6.0',
-    # TODO: put package requirements here
+    'numpy',
+    'pandas'
 ]
 
-test_requirements = [
-    # TODO: put package test requirements here
-]
+
 
 setup(
     name='number-recognizer',
@@ -54,6 +53,4 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
     ],
-    test_suite='tests',
-    tests_require=test_requirements
 )
